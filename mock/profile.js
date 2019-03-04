@@ -161,11 +161,17 @@ export default {
       childOrderNo: Random.id(),
     };
     const userInfo = {
-      name: Random.cname(),
-      tel: '18100000000',
-      delivery: '菜鸟物流',
-      addr: '浙江省杭州市西湖区万塘路18号',
-      remark: '备注',
+      name: '赵呈芳',
+      sex:'女',
+      birthday: '1993.07.23',
+      source: '吉林',
+      political : '中共党员',
+      education: '硕士',
+      profession : '计算机技术',
+      school : '东北林业大学',
+      tel: '15546360517',
+      email : 'zcfzcf_yx@163.com',
+      addr: '浙江省杭州市西湖区文新街道文一西路 149 号雅仕苑',
     };
     res.json({
       userInfo,
