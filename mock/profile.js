@@ -1,37 +1,19 @@
 import mockjs from 'mockjs';
 
-const basicGoods = [
+const eduBackGround = [
   {
-    id: '1234561',
-    name: '矿泉水 550ml',
-    barcode: '12421432143214321',
-    price: '2.00',
-    num: '1',
-    amount: '2.00',
+    id: '1',
+    time: '2016.9—2018.7',
+    school: '东北林业大学',
+    profession: '计算机技术',
+    education: '硕士',
   },
   {
-    id: '1234562',
-    name: '凉茶 300ml',
-    barcode: '12421432143214322',
-    price: '3.00',
-    num: '2',
-    amount: '6.00',
-  },
-  {
-    id: '1234563',
-    name: '好吃的薯片',
-    barcode: '12421432143214323',
-    price: '7.00',
-    num: '4',
-    amount: '28.00',
-  },
-  {
-    id: '1234564',
-    name: '特别好吃的蛋卷',
-    barcode: '12421432143214324',
-    price: '8.50',
-    num: '3',
-    amount: '25.50',
+    id: '2',
+    time: '2012.9—2016.7',
+    school: '长春理工大学',
+    profession: '软件工程',
+    education: '本科',
   },
 ];
 
@@ -176,7 +158,7 @@ export default {
     res.json({
       userInfo,
       application,
-      basicGoods,
+      eduBackGround,
       basicProgress,
     });
   },

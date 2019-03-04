@@ -4,7 +4,7 @@ export default {
   namespace: 'profile',
 
   state: {
-    basicGoods: [],
+    eduBackGround: [],
     advancedOperation1: [],
     advancedOperation2: [],
     advancedOperation3: [],
