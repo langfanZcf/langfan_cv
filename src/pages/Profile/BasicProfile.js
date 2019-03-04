@@ -76,7 +76,7 @@ class BasicProfile extends Component {
       },
     ];
     return (
-      <PageHeaderWrapper title="基础详情页" loading={loading}>
+      <PageHeaderWrapper title="基本情况" loading={loading}>
         <Card bordered={false}>
           <Divider style={{ marginBottom: 32 }} />
           <DescriptionList size="large" title="个人信息" style={{ marginBottom: 32 }}>

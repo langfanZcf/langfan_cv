@@ -3,18 +3,49 @@ import mockjs from 'mockjs';
 const eduBackGround = [
   {
     id: '1',
-    time: '2016.9—2018.7',
+    time: '2016.09—2018.07',
     school: '东北林业大学',
     profession: '计算机技术',
     education: '硕士',
   },
   {
     id: '2',
-    time: '2012.9—2016.7',
+    time: '2012.09—2016.07',
     school: '长春理工大学',
     profession: '软件工程',
     education: '本科',
   },
+];
+
+const workExperience = [
+  {
+    id: '1',
+    time: '2017.10-2018.02',
+    cpName: '作业帮教育科技北京有限公司',
+    position: '测试开发工程师',
+    location: '北京',
+    contentList: [{
+      num: '1',
+      content : '1.主要工作是白盒测试，接口测试，对项目代码进行阅读，查看日志，定位代码错 误位置信息，执行脚本，修改部分测试相关脚本。',
+    }],
+  },
+  {
+    id: '2',
+    time: '2018.05-至今',
+    cpName: '挖财网络技术有限公司',
+    position: '数据研发工程师',
+    location: '杭州',
+    contentList: [
+      {
+      id: '1',
+      content : '任职部门是数据运营技术部，主要负责业务代码的编写，主要使用语言java。',
+    },
+      {
+        id: '2',
+        content : '具有运营平台建设和资金业务的开发能力，完成运营活动平台的建设，其中涉及到实时计算 (spark，hbase，kafka)，并在项目中使用 dubbo，domino，以及技术平台中的任务调度中间件。',
+      }
+    ],
+  }
 ];
 
 const basicProgress = [
@@ -159,6 +190,7 @@ export default {
       userInfo,
       application,
       eduBackGround,
+      workExperience,
       basicProgress,
     });
   },

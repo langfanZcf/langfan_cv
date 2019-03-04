@@ -24,6 +24,7 @@ export default {
   'menu.list.searchlist.applications': '搜索列表（应用）',
   'menu.profile': '个人简历',
   'menu.profile.basic': '基本情况',
+  'menu.profile.work': '工作经历',
   'menu.profile.advanced': '高级详情页',
   'menu.result': '结果页',
   'menu.result.success': '成功页',

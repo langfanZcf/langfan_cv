@@ -151,10 +151,9 @@ export default [
             component: './Profile/BasicProfile',
           },
           {
-            path: '/profile/basic/:id',
-            name: 'basic',
-            hideInMenu: true,
-            component: './Profile/BasicProfile',
+            path: '/profile/work/',
+            name: 'work',
+            component: './Profile/Work',
           },
           {
             path: '/profile/advanced',
