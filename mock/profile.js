@@ -210,6 +210,12 @@ export default {
         '2.系统管理模块实现，系统角色权限 划分。' +
         '3.交通量情况汇总模块实现。4.Hadoop 集群的搭建。',
     };
+    const projectFour = {
+      time: '2016.08-2018.04',
+      projectName:'交通轨迹数据的优化，路径通达时间预测，出租车运营特征可视化',
+      projectContent: 'Jian Kang, Weipeng Jing, Chengfang Zhao. Easing Traffic Congestion: An Improved Clustering\n' +
+        'Method For Sharing Bike Station Deployment[C]. CollaborateCom, 2017',
+    };
     res.json({
       userInfo,
       application,
@@ -219,6 +225,7 @@ export default {
       projectOne,
       projectTwo,
       projectThree,
+      projectFour,
     });
   },
 };

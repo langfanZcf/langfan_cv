@@ -161,6 +161,11 @@ export default [
             component: './Profile/Project',
           },
           {
+            path: '/profile/other/',
+            name: 'other',
+            component: './Profile/Other',
+          },
+          {
             path: '/profile/advanced',
             name: 'advanced',
             authority: ['admin'],
