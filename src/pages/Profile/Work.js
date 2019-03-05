@@ -1,11 +1,9 @@
 /* eslint-disable react/jsx-indent */
-import React,{ connect } from 'dva';
+import { connect } from 'dva';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
-import { Component } from 'react';
-import { Card, Table } from 'antd';
-import styles from './BasicProfile.less';
-
-
+import React, { Component } from 'react';
+import { Card,Table } from 'antd';
+import styles from './Work.less';
 
 @connect(({ profile, loading }) => ({
   profile,
@@ -41,44 +39,47 @@ class Work extends Component{
         title: '序号',
         dataIndex: 'id',
         key: 'id',
+        width : 40,
         render: renderContent,
       },
       {
         title: '时间',
         dataIndex: 'time',
         key: 'time',
+        width : 100,
         render: renderContent,
       },
       {
         title: '公司名称',
         dataIndex: 'cpName',
         key: 'cpName',
+        width : 180,
         render: renderContent,
       },
       {
         title: '职位名称',
         dataIndex: 'position',
         key: 'position',
-        align: 'right',
+        width : 150,
         render: renderContent,
       },
       {
         title: '地点',
         dataIndex: 'location',
         key: 'location',
-        align: 'right',
+        width : 70,
         render: renderContent,
       },
       {
         title: '工作内容',
-        dataIndex: 'contentList',
-        key: 'contentList',
+        dataIndex: 'content',
+        key: 'content',
         render: renderContent,
       },
     ];
     return (
-      <PageHeaderWrapper title="工作经历" loading={loading}>
-        <Card bordered={false}>
+      <PageHeaderWrapper title="工作">
+        <Card title="工作经历" style={{ marginBottom: 24 }} bordered={false}>
           <div className={styles.title}>工作经历</div>
           <Table
             style={{ marginBottom: 24 }}
