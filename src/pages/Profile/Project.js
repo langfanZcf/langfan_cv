@@ -27,8 +27,7 @@ class Project extends Component{
     const {  projectOne = {} , projectTwo = {} ,projectThree ={} } = profile;
     return (
       <PageHeaderWrapper  loading={loading}>
-        <Card bordered={false} title="项目经验" >
-          <Divider style={{ marginBottom: 32 }} />
+        <Card bordered={false} title="项目经验">
           <DescriptionList size="large" title="项目经验一" style={{ marginBottom: 32 }}>
             <Description term="时间">{projectOne.time}</Description>
             <Description term="项目名称">{projectOne.projectName}</Description>
