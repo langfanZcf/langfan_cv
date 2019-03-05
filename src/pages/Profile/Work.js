@@ -3,7 +3,6 @@ import { connect } from 'dva';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 import React, { Component } from 'react';
 import { Card,Table } from 'antd';
-import styles from './Work.less';
 
 @connect(({ profile, loading }) => ({
   profile,
@@ -78,9 +77,8 @@ class Work extends Component{
       },
     ];
     return (
-      <PageHeaderWrapper title="工作">
+      <PageHeaderWrapper>
         <Card title="工作经历" style={{ marginBottom: 24 }} bordered={false}>
-          <div className={styles.title}>工作经历</div>
           <Table
             style={{ marginBottom: 24 }}
             pagination={false}
