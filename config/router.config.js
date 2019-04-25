@@ -17,11 +17,11 @@ export default [
   // app
   {
     path: '/',
-    component: '../profile/basic',
+    component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
     routes: [
       // dashboard
-      { path: '/', redirect: '/profile/basic' },
+      { path: '/profile/basics', redirect: '/profile/basics' },
       // forms
       {
         path: '/profile',
