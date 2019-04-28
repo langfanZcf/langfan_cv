@@ -21,7 +21,7 @@ export default [
     Routes: ['src/pages/Authorized'],
     routes: [
       // dashboard
-      { path: '/profile/basics', redirect: '/profile/basics' },
+      { path: '/', redirect: '/profile/basic' },
       // forms
       {
         path: '/profile',
