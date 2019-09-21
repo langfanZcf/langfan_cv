@@ -10,13 +10,13 @@ const FooterView = () => (
         {
           key: 'Pro 首页',
           title: 'Pro 首页',
-          href: 'https://pro.ant.design',
+          href: 'https://github.com/langfanZcf',
           blankTarget: true,
         },
         {
           key: 'github',
           title: <Icon type="github" />,
-          href: 'https://github.com/ant-design/ant-design-pro',
+          href: 'https://github.com/langfanZcf',
           blankTarget: true,
         },
         {
@@ -28,7 +28,7 @@ const FooterView = () => (
       ]}
       copyright={
         <Fragment>
-          Copyright <Icon type="copyright" /> 2018 蚂蚁金服体验技术部出品
+          Copyright <Icon type="copyright" /> 2019 浪凡个人简历
         </Fragment>
       }
     />
